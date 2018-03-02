@@ -69,8 +69,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         var arrowName: String!
         var priceTitle: String!
         
+        // update format of price to include commas
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = NumberFormatter.Style.currency
+        let formattedPrice = numberFormatter.string(from: NSNumber(value:price))!
+        
         if(currency == "BTC") {
-            priceTitle = " BTC: $" + String(price)
+            priceTitle = " BTC: " + formattedPrice
 
             if(price >= yesterdayBTCPrice) {
                 arrowName = "green_arrow"
@@ -78,7 +83,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
                 arrowName = "red_arrow"
             }
         } else if(currency == "ETH") {
-            priceTitle = " ETH: $" + String(price)
+            priceTitle = " ETH: " + formattedPrice
 
             if(price >= yesterdayETHPrice) {
                 arrowName = "green_arrow"
