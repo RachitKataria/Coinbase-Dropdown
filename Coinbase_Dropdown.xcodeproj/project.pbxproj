@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB0FCE1D4836E4C168841AB /* Pods_Coinbase_Dropdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465043B7C2E583E0EDC012DE /* Pods_Coinbase_Dropdown.framework */; };
+		ED72D47F204918FD006FD6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72D47E204918FD006FD6D9 /* AppDelegate.swift */; };
+		ED72D481204918FD006FD6D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72D480204918FD006FD6D9 /* ViewController.swift */; };
+		ED72D486204918FD006FD6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED72D484204918FD006FD6D9 /* Main.storyboard */; };
+		ED79FF5420491FF0006F1271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED79FF5320491FF0006F1271 /* Assets.xcassets */; };
+		EDAA13E22049310100186CCA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA13E32049310100186CCA /* Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		465043B7C2E583E0EDC012DE /* Pods_Coinbase_Dropdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coinbase_Dropdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C2D8997E40CC0AD366D2CD /* Pods-Coinbase_Dropdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinbase_Dropdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coinbase_Dropdown/Pods-Coinbase_Dropdown.release.xcconfig"; sourceTree = "<group>"; };
+		892370ACF94F4227A8BE63A1 /* Pods-Coinbase_Dropdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinbase_Dropdown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinbase_Dropdown/Pods-Coinbase_Dropdown.debug.xcconfig"; sourceTree = "<group>"; };
+		ED72D47B204918FD006FD6D9 /* Coinbase_Dropdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinbase_Dropdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED72D47E204918FD006FD6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED72D480204918FD006FD6D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED72D485204918FD006FD6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED72D487204918FD006FD6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED72D488204918FD006FD6D9 /* Coinbase_Dropdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coinbase_Dropdown.entitlements; sourceTree = "<group>"; };
+		ED79FF5320491FF0006F1271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		EDAA13E12049305D00186CCA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAA13E32049310100186CCA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED72D478204918FD006FD6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA13E22049310100186CCA /* Alamofire.framework in Frameworks */,
+				1FB0FCE1D4836E4C168841AB /* Pods_Coinbase_Dropdown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D46E3EF13952A950CADBB8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA13E32049310100186CCA /* Alamofire.framework */,
+				EDAA13E12049305D00186CCA /* Alamofire.framework */,
+				465043B7C2E583E0EDC012DE /* Pods_Coinbase_Dropdown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9FB3A675EBA69F6A4460219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				892370ACF94F4227A8BE63A1 /* Pods-Coinbase_Dropdown.debug.xcconfig */,
+				58C2D8997E40CC0AD366D2CD /* Pods-Coinbase_Dropdown.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED72D472204918FD006FD6D9 = {
+			isa = PBXGroup;
+			children = (
+				ED72D47D204918FD006FD6D9 /* Coinbase_Dropdown */,
+				ED72D47C204918FD006FD6D9 /* Products */,
+				C9FB3A675EBA69F6A4460219 /* Pods */,
+				2D46E3EF13952A950CADBB8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED72D47C204918FD006FD6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED72D47B204918FD006FD6D9 /* Coinbase_Dropdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED72D47D204918FD006FD6D9 /* Coinbase_Dropdown */ = {
+			isa = PBXGroup;
+			children = (
+				ED72D47E204918FD006FD6D9 /* AppDelegate.swift */,
+				ED72D480204918FD006FD6D9 /* ViewController.swift */,
+				ED79FF5320491FF0006F1271 /* Assets.xcassets */,
+				ED72D484204918FD006FD6D9 /* Main.storyboard */,
+				ED72D487204918FD006FD6D9 /* Info.plist */,
+				ED72D488204918FD006FD6D9 /* Coinbase_Dropdown.entitlements */,
+			);
+			path = Coinbase_Dropdown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED72D47A204918FD006FD6D9 /* Coinbase_Dropdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED72D48B204918FD006FD6D9 /* Build configuration list for PBXNativeTarget "Coinbase_Dropdown" */;
+			buildPhases = (
+				BF0D01EDA8BE57F6C357C01F /* [CP] Check Pods Manifest.lock */,
+				ED72D477204918FD006FD6D9 /* Sources */,
+				ED72D478204918FD006FD6D9 /* Frameworks */,
+				ED72D479204918FD006FD6D9 /* Resources */,
+				7BBE55E10654BB2FBE0F9C63 /* [CP] Embed Pods Frameworks */,
+				A520A9E17BAAB95E6A2326BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coinbase_Dropdown;
+			productName = Coinbase_Dropdown;
+			productReference = ED72D47B204918FD006FD6D9 /* Coinbase_Dropdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED72D473204918FD006FD6D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rachit Kataria";
+				TargetAttributes = {
+					ED72D47A204918FD006FD6D9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED72D476204918FD006FD6D9 /* Build configuration list for PBXProject "Coinbase_Dropdown" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED72D472204918FD006FD6D9;
+			productRefGroup = ED72D47C204918FD006FD6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED72D47A204918FD006FD6D9 /* Coinbase_Dropdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED72D479204918FD006FD6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED79FF5420491FF0006F1271 /* Assets.xcassets in Resources */,
+				ED72D486204918FD006FD6D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BBE55E10654BB2FBE0F9C63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Coinbase_Dropdown/Pods-Coinbase_Dropdown-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coinbase_Dropdown/Pods-Coinbase_Dropdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A520A9E17BAAB95E6A2326BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coinbase_Dropdown/Pods-Coinbase_Dropdown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0D01EDA8BE57F6C357C01F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coinbase_Dropdown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED72D477204918FD006FD6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED72D481204918FD006FD6D9 /* ViewController.swift in Sources */,
+				ED72D47F204918FD006FD6D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED72D484204918FD006FD6D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED72D485204918FD006FD6D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED72D489204918FD006FD6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED72D48A204918FD006FD6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		ED72D48C204918FD006FD6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892370ACF94F4227A8BE63A1 /* Pods-Coinbase_Dropdown.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Coinbase_Dropdown/Coinbase_Dropdown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q46Y9C7EAT;
+				INFOPLIST_FILE = Coinbase_Dropdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "katariastudios.Coinbase-Dropdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ED72D48D204918FD006FD6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C2D8997E40CC0AD366D2CD /* Pods-Coinbase_Dropdown.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Coinbase_Dropdown/Coinbase_Dropdown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q46Y9C7EAT;
+				INFOPLIST_FILE = Coinbase_Dropdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "katariastudios.Coinbase-Dropdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED72D476204918FD006FD6D9 /* Build configuration list for PBXProject "Coinbase_Dropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED72D489204918FD006FD6D9 /* Debug */,
+				ED72D48A204918FD006FD6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED72D48B204918FD006FD6D9 /* Build configuration list for PBXNativeTarget "Coinbase_Dropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED72D48C204918FD006FD6D9 /* Debug */,
+				ED72D48D204918FD006FD6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED72D473204918FD006FD6D9 /* Project object */;
+}

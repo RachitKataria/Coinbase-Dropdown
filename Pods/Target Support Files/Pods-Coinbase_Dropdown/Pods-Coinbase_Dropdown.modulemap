@@ -1,0 +1,6 @@
+framework module Pods_Coinbase_Dropdown {
+  umbrella header "Pods-Coinbase_Dropdown-umbrella.h"
+
+  export *
+  module * { export * }
+}
